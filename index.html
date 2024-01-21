@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="./ASSETS/logo (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600;1,700&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.CSS">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" class="home"> Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#" class="search"> Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib_option">
+                        <img src="./ASSETS/library_icon (1).png" alt="">
+                        <a href="#" class="Your_library"> Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus a"></i>
+                        <i class="fa-solid fa-arrow-right-long b"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title ">Create your first playlist</p>
+                            <p class="card-text">It's easy we will help you</p>
+                            <a href="#" class="btn btn-primary">Create playlist</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Let' find some podcast to follow</h5>
+                            <p class="card-text">We will keep you updated on new episodes
+                            </p>
+                            <a href="#" class="btn btn-primary">Browse podcasts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="language">
+                    <i class="fa-solid fa-globe"></i>
+                    English
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="nav">
+                <div class="left">
+                    <a href="#"><img src="./ASSETS/backward_icon (1).png  " alt=""></a>
+                    <a href="#"><img src="./ASSETS/forward_icon (1).png " alt=""></a>
+                </div>
+                <div class="right">
+                    <button class="btn rounded-pill text-bg-light">Log in</button>
+                    <button class="btn rounded-pill text-bg-light">Sign up</button>
+                    <!-- <button class="btn rounded-pill text-bg-light">Explore Premium</button> -->
+                    <!-- <button class="btn rounded-pill text-bg-light"><i class="fa-solid fa-circle-down "></i>Install App</button> -->
+                </div>
+                <div class="separate">
+                    <i class="fa-regular fa-user d"></i>
+                </div>
+            </div>
+
+
+            <div class="album">
+                <div class="first">
+                    <h2>Recently Played</h2>
+                    <div class="card-container">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./ASSETS/card1img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Top 50 global</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="album">
+                <div class="first">
+                    <h2>Trending now near you</h2>
+                    <div class="card-container">
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/card2img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Riding the wave of hits.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/card3img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Chart-toppers on repeat</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/card4img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Trending sounds, instant vibes.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/trending.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Playlist on the rise.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/trending2.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Hot tracks, cool vibes</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="album">
+                <div class="first">
+                    <h2>Featured charts</h2>
+                    <div class="card-container">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./ASSETS/card6img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Top songs India</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 16rem;">
+                            <img src="./ASSETS/card5img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Top 50 global</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 16rem;">
+                            <img src="./ASSETS/card1img (1).jpeg" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Top 50 global</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="album">
+                <div class="first">
+                    <h2>Focus</h2>
+                    <div class="card-container">
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/study.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Eyes on goals, not obstacles.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/study2.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Mind sharpens in stillness</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/study4.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Focus fuels achievement's fire</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/sleep3.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">unnel vision, reach success</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="album">
+                <div class="first">
+                    <h2>Spotify playlist</h2>
+                    <div class="card-container">
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Music is the universal language.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist2.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Play the moments, pause the memories.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist3.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Your playlist, your soundtrack to life.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist4.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Where words fail, music speaks.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist5.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Melodies that paint emotions</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist6.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Soundtrack to my soul's journey.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <img src="./ASSETS/playlist7.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Lost in the notes of time.</h5>
+                                <p class="card-text">Your daily update of the most played tracks right ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="album">
+                <div class="first">
+                    <h2>Sleep</h2>
+                    <div class="card-container">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./ASSETS/sleep.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Sleep</h5>
+                                <p class="card-text">Gentle Ambient piano to help you fall asleep ...</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 16rem;">
+                            <img src="./ASSETS/sleep2.avif" class="card-img-top" alt=" ">
+                            <div class="card-body">
+                                <h5 class="card-title">Day Dreamer</h5>
+                                <p class="card-text">Drift away with entralling instumentals ...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="end">
+                        <div class="company">
+                            <p class="head">Company</p>
+                            <a href="#">
+                                <p class="para">About</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Jobs</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">About the record</p>
+                            </a>
+                        </div>
+                        <div class="communities">
+                            <p class="head">Communities</p>
+                            <a href="#">
+                                <p class="para">For Artits</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Developers</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Advertising</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Investors</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Vendors</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Spotify for wrok</p>
+                            </a>
+                        </div>
+                        <div class="links">
+                            <p class="head">Useful Links</p>
+                            <a href="#">
+                                <p class="para">Support</p>
+                            </a>
+                            <a href="#">
+                                <p class="para">Free Mobile app</p>
+                            </a>
+                        </div>
+                        <div class="logo">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <i class="fa-regular fa-copyright"></i>
+                        <p>2023 spotify AB</p>
+                    </div>
+                    <div class="footer">
+                        <div class="line"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="music_player">
+        <div class="album">
+            <a href="#"><img src="./HOMEWORK ASSETS/album_picture.jpeg" alt=""></a>
+            <div class="text">
+                <p class="p1">Daylight</p>
+                <p class="p2">David kushnir</p>
+            </div>
+            <a href="#"><img src="./HOMEWORK ASSETS/album_icon1.png " class="img1" alt=""></a>
+            <a href="#"><img src="./HOMEWORK ASSETS/album_icon2.png" class="img2" alt=""></a>
+            <a href="#"><img src="./HOMEWORK ASSETS/controls_icon1.png" class="icon1 " alt=""></a>
+        </div>
+        <div class="player">
+            <div class="player-control">
+                <a href="#"><img src="./ASSETS/player_icon1 (1).png" alt=""></a>
+                <a href="#"><img src="./ASSETS/player_icon2 (1).png" alt=""></a>
+                <a href="#"><img src="./ASSETS/player_icon3 (1).png" class="fixed" alt=""></a>
+                <a href="#"><img src="./ASSETS/player_icon4 (1).png" alt=""></a>
+                <a href="#"><img src="./ASSETS/player_icon5 (1).png" alt=""></a>
+            </div>
+            <div class="progress_bar">
+                <div class="curr_time">00.00</div>
+                <input type="range" min="0" max="100" class="time">
+                <div class="total_time">3.33</div>
+            </div>
+        </div>
+        <div class="controls">
+            <a href="#"><i class="fa-solid fa-microphone "></i></a>
+            <a href="#"><img src="./HOMEWORK ASSETS/controls_icon3.png" class="icon3 " alt=""></a>
+            <a href="#"><img src="./HOMEWORK ASSETS/controls_icon4.png" class="icon4 " alt=""></a>
+            <a href="#"><img src="./HOMEWORK ASSETS/controls_icon5.png" class="icon5" alt=""></a>
+
+            <label for="vol"></label>
+            <input type="range" min="0" max="100" step="1" name="vol">
+        </div>
+
+
+
+    </div>
+
+    </div>
+</body>
+
+</html>
